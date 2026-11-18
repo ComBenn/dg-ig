@@ -1,6 +1,20 @@
 == Suppressed Messages ==
 
-# Hier könnt ihr Warnungen aus dem QA-Report unterdrücken.
-# Kopiert dazu den Text der Warnung exakt in eine eigene Zeile.
-# Schreibt über jede unterdrückte Warnung einen Kommentar mit dem Grund.
-# Errors lassen sich nicht unterdrücken, die müsst ihr beheben.
+# CH Term 3.3.0 ist im Aufgabenblatt und in der Vorlage explizit vorgegeben.
+# Für diese Übungsabgabe bleiben CH Core 6.0.0 und CH Term 3.3.0 unverändert.
+The ImplementationGuide uses package ch.fhir.ig.ch-term#3.3.0 released on 2025-12-15, but the most recent appropriate version is 3.4.0. This reference is getting old and the more recent version should be considered
+
+# Die folgenden acht Warnungen betreffen ausschliesslich die generierte
+# Suchseite output/searchform.html des vorgegebenen fhir.base.template#current.
+# Sie traten bereits im unveränderten Vorlagen-Build auf. Die eigenen Seiten,
+# das Profil und beide Allergiebeispiele haben keine entsprechenden Fehler.
+# Generierte Dateien werden nicht von Hand korrigiert. Nur die konkret
+# geprüften Meldungen werden aufgeführt, keine globale HTML-Unterdrückung.
+The html source is not well formed: Found "</a>" expecting "</img>" at line 34 column 177
+The html source is not well formed: Found "</div>" expecting "</body>" at line 79 column 10
+The html source is not well formed: Found "</div>" expecting "</body>" at line 80 column 9
+The html source is not well formed: Found "</div>" expecting "</body>" at line 109 column 8
+The html source is not well formed: Found "</div>" expecting "</body>" at line 111 column 12
+The html source is not well formed: Found "</div>" expecting "</body>" at line 112 column 20
+The html source is not well formed: Found "</div>" expecting "</body>" at line 113 column 16
+The html source is not well formed: Found "</div>" expecting "</body>" at line 115 column 12
