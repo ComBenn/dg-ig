@@ -1,16 +1,7 @@
-# =====================================================================
-# Baut das IG bei jedem Push auf main und veröffentlicht es auf
-# GitHub Pages. Diese Datei müsst ihr nicht ändern.
-#
-# Ablauf:
-#   1. sushi    : FSH kompilieren (schnell, ca. 1 Minute)
-#   2. ig       : IG Publisher baut Website und QA-Report (mehrere Minuten)
-#   3. deploy   : Website auf GitHub Pages veröffentlichen
-#
-# Manuell starten: Tab "Actions" -> "IG bauen" -> "Run workflow".
-# Dort könnt ihr den Terminologieserver auf "n/a" stellen, falls
-# tx.fhir.org nicht erreichbar ist.
-# =====================================================================
+# Build-Workflow aus der Lab-Vorlage.
+# Jeder Push auf main startet SUSHI, den IG Publisher und die Veröffentlichung.
+# Über workflow_dispatch lässt sich der Terminologieserver festlegen.
+# Der Wert n/a deaktiviert die Terminologieprüfung.
 
 name: IG bauen
 

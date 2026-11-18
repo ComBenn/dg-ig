@@ -1,21 +1,5 @@
-/* ---------------------------------------------------------------------------
- * --  _____       _____ _______                                             -
- * -- |_   _|     |_   _|__   __|                                            -
- * --   | |  _ __   | |    | |       Institute of Computer Science           -
- * --   | | | '_ \  | |    | |       Zurich University of                    -
- * --  _| |_| | | |_| |_   | |       Applied Sciences                        -
- * -- |_____|_| |_|_____|  |_|       8401 Winterthur, Switzerland            -
- * ---------------------------------------------------------------------------
- */
-
-// =====================================================================
-// Basis-Beispiele: Patientin, Ärztin und Organisation
-//
-// Diese Datei ist fertig. Eure eigenen Beispiele können auf diese
-// Instanzen verweisen, z. B.
-//   * patient = Reference(AnnaMuster)
-//   * recorder = Reference(DrSaraKeller)
-// =====================================================================
+// Basisinstanzen aus der Lab-Vorlage. Meine Allergiebeispiele verweisen auf
+// Anna Muster und Dr. Sara Keller.
 
 Instance: AnnaMuster
 InstanceOf: CHCorePatient
